@@ -11,6 +11,15 @@
 
 int main()
 {
+  int arr[5];
+  int i;
+  printf("enter 5 integer\n");
+  for(i=0;i<5;i++)
+  scanf("%d",&arr[i]);
+printf("output\n");
+
+  for(i=0;i<5;i++)
+  printf("%d\n",arr[i]);
    //Declare all the variables[N, array a, i] used in the code
    //Read the Value of N using scanf statement
    //Read the array elements using for loop and scanf statment
